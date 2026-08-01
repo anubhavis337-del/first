@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding:50px;
+    background-color: rgb(100, 176, 180);
+}
+
+.container{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    align-items:center;
+}
+
+.content h1{
+    margin-bottom:20px;
+}
+
+.content p{
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    border-radius:8px;
+    background:rgb(186, 48, 48);
+    color:white;
+    cursor:pointer;
+}
+
+/* Right Side */
+
+.grid-box{
+    background:red;
+    padding:15px;
+
+    display:grid;
+    grid-template-columns:35% 65%;
+    grid-template-rows:100px 120px 70px;
+
+    grid-template-areas:
+    "box2 box1"
+    "box2 box3"
+    "box2 box4";
+}
+
+.box1{
+    grid-area:box1;
+    background:#c95d5d;
+    padding:10px;
+}
+
+.box2{
+    grid-area:box2;
+    background:aqua;
+    padding:10px;
+}
+
+.box3{
+    grid-area:box3;
+    background:royalblue;
+    padding:10px;
+}
+
+.box4{
+    grid-area:box4;
+    background:#222;
+}
+
+h1{
+    color: blue;
+    text-transform: uppercase;
+    text-shadow: 3px 3px rgb(191, 100, 100), 6px 6px rgb(234, 234, 63), 6px 6px rgb(132, 132, 242), 6px 6px white;
+}
+
+footer{
+    background-color: black;
+    width:7%
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body{
+    background-color: rgb(199, 228, 229);
+    color: rgb(184, 102, 77);
+}
+p{
+    font-weight: 400;
+    letter-spacing: 2px;
+    
+}
+h1{
+    font-size: large;
+}

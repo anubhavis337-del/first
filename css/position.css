@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+    color: #f1f1f1;
+}
+.container{
+    width:300px;
+    border:5px solid;
+    margin: 100px auto;
+    height:450px;
+}
+
+.box{
+    width: 100px;
+    height:100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:18px;
+    color:#212121
+}
+
+.box-1{
+    background-color:#8b61d2;
+    position:relative;
+    top:100px;
+    left:100px;
+
+}
