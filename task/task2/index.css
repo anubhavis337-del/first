@@ -1,7 +1,25 @@
 *{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
+}
    
+/* responsive  */
+.container{
+    display:flex;
+}
+
+@media(max-width: 768px){
+    .container{
+        flex-direction:column
+    }
+}
+
+@media(max-width: 480px){
+    .container{
+        flex-direction:column   
+    }
+   
+    
 }
 .container{
     background-color: #FFCD9E;
@@ -61,6 +79,8 @@
 width:400px;
 margin-right: 20px;
 object-fit:cover;
+max-width: 100%;
+height: auto;
 
 }
 
