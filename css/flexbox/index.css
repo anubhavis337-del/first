@@ -1,15 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 body{
-    background-color: black;
-    color: aliceblue;
+    background-color: rgb(102, 118, 175);
+    color:white;
 }
 
-div{
+.container{
+    border: 2px solid red;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    /* align-content: space-between; */
+
+}
+
+.box{
+    border: 3px solid black;
+    padding: 12px;
+}
+/* div{
     background-color: #414141;
     margin: 20px;
     border-radius: 12px;
     padding: 12px;
-}
+} */
 
 h1{
     /* text-align: center;

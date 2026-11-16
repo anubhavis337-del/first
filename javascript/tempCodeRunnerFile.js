@@ -1,11 +1,9 @@
-for(let i=0;i<=5;i++){
-//     let star=""
-//     for(let j=0;j>5-i;j--){
-//         star+="*"
+function arrindex(arr,num){
+//     for(let i=0;i<arr.length;i++){
+//         if(arr[i]===num){
+//             return i
+//         }
 //     }
-//     for(let k=1;k=i;k--){
-//       star+=""
-//     }
-//     console.log(star)
-
 // }
+// let arr=[4,5,3,6]
+// console.log(arrindex([3]))

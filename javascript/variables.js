@@ -19,33 +19,36 @@
 //number,string,boolean,undefined,null,bigint,symbol
 
 //null datatypes
-let temp=null
-console.log(typeof temp)//bug of js
+// let temp=null
+// console.log(typeof temp)//bug of js
 
-//boolean
-let isstudent=true
-console.log(typeof isstudent)
+// //boolean
+// let isstudent=true
+// console.log(typeof isstudent)
 
-//bigint
-let population = 123456789012345678901234567890n;
-console.log(typeof population)
+// //bigint
+// let population = 123456789012345678901234567890n;
+// console.log(typeof population)
 
-// undefined
-let city;
-console.log(city);
-console.log(typeof city)
+// // undefined
+// let city;
+// console.log(city);
+// console.log(typeof city)
 
-//symbol
-let id = Symbol("id");
-console.log(typeof id)
+// //symbol
+// let id = Symbol("id");
+// console.log(typeof id)
 
-//string
-let name="anu"
-console.log(typeof name)
+// //string
+// let name="anu"
+// console.log(typeof name)
 
-//number
-let num=67
-console.log(typeof num)
+// //number
+// let num=67
+// console.log(typeof num)
 
-let arr=[]
-console.log(typeof arr)//array is consider as a object
+// let arr=[]
+// console.log(typeof arr)//array is consider as a object
+
+let arr=[1,6.7,"anu",8.9]
+console.log(arr[0])

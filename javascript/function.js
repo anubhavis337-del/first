@@ -15,10 +15,10 @@
 
 //parameter / arguments
 //default parameter
-// function print(name ="guest"){
-//     console.log(`my name is ${name}`);
-//     console.log("i wanted to be full stack developer")
-// }
+function print(name ="guest"){
+    console.log(`my name is ${name}`);
+    console.log("i wanted to be full stack developer")
+}
 
 
 // function print(name){
@@ -28,8 +28,8 @@
 //     console.log(`my name is ${name}`);
 //     console.log("i wanted to be full stack developer")
 // }
-// print("Anubhavi thakur") //argument
-// print("kuchhu puchhu")
+print("Anubhavi thakur") //argument
+print("kuchhu puchhu")
 
 // function addTwoNumbers(num1,num2){
 //     // console.log(num1+num2)
@@ -58,13 +58,13 @@
 
 //arrow function
 
-letgreet =(username) => {
-    console.log("Welcome,"+username)
-    return "Welcome,"+username
-}
+// letgreet =(username) => {
+//     console.log("Welcome,"+username)
+//     return "Welcome,"+username
+// }
 
 
-let greet = (username)=> "welcome," +username
+// let greet = (username)=> "welcome," +username
 
-console.log(greet("Anubhavi"))
+// console.log(greet("Anubhavi"))
      

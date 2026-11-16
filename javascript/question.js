@@ -62,17 +62,74 @@
 // }
 
 //4===========================
-for(let i=5;i>=1;i--){
-    let star=""
-    for(let j=1;j<=5-i;j++){
-        star+="  "
-    }
-    for(let k=1;k<=i;k++){
-      star+="* "
-    }
-    console.log(star)
+// for(let i=5;i>=1;i--){
+//     let star=""
+//     for(let j=1;j<=5-i;j++){
+//         star+="  "
+//     }
+//     for(let k=1;k<=i;k++){
+//       star+="* "
+//     }
+//     console.log(star)
 
-}
+// }
 
 //5===============================
+// function row(n){
 
+// for(let i=1;i<=n;i++){
+//     pattern="";
+   
+//     for(let j=1;j<=n-i;j++){
+//         pattern+=" ";
+//     }
+//     for(let j=1;j<=2*i-1;j++){
+//         pattern+="*";
+//     }
+// console.log(row);
+// }
+
+// console.log(5);
+//}
+
+
+//6---------------------------------
+
+//7----------------------------------
+
+// function pattern(n){
+//     for(let i=1;i<=n;i++){
+//     row="  ";
+   
+//     for(let j=1;j<=n-i;j++){
+//         row+="  ";
+//     }
+//     for(let j=1;j<=2*i-1;j++){
+//         row+=" * ";
+//     }
+//     console.log(row);
+// }
+//     for(let i=n-1;i>=1;i--){
+//         let row="  ";
+
+//         for(let j=1;j<=n-i;j++){
+//             row+="  ";
+//         }
+//         for(let j=1;j<=2*i-1;j++){
+//             row+=" * "
+//         }
+//         console.log(row);
+//     }
+// }
+// pattern(4)
+
+//8------------------------------------
+function square(n){
+    for(let i=1;i<=n;i++){
+        star=""
+        for(let j=1;j<i;j++){
+            star=+"*"
+        }
+        console.log(star)
+    }
+}console.log(4)
